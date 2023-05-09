@@ -1,0 +1,39 @@
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a> cd part-a
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git --version
+git version 2.39.2.windows.1
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git init
+Initialized empty Git repository in C:/Users/Vaishnavi/OneDrive/Desktop/WAD-2a/part-a/.git/
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git add .
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git status
+On branch master
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text1.txt
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git remote add origin "https://github.com/VTrapPraa/WAD-2a.git"
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git commit -m "First commit"
+[master (root-commit) 531dc29] First commit
+ create mode 100644 text1.txt
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/VTrapPraa/WAD-2a.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+PS C:\Users\Vaishnavi\OneDrive\Desktop\WAD-2a\part-a> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
